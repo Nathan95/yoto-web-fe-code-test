@@ -39,7 +39,6 @@ function App() {
   if(products.length === 0) {
     return <div>loading...</div>
   }
-  
 
   const nextPage = () => {
     if (currentPage !== lastIndex) {

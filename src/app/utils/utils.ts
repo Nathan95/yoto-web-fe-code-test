@@ -35,13 +35,3 @@ export const sortSelectOptions = [
   },
 ];
 
-// export const sortBy: Record<string, any> = {
-//     duration: (prod: Products[]) => prod.sort((a, b) => a.runtime - b.runtime),
-//     price_ascending: (prod: Products[]) =>
-//       prod.sort((a, b) => parseInt(a.price) - parseInt(b.price)),
-//     price_descending: (prod: Products[]) =>
-//       prod.sort((a, b) => parseInt(b.price) - parseInt(a.price)),
-//     zero_to_five: (prod: Products[]) =>
-//       prod.filter((age) => age.ageRange.some((range) => range <= 5)),
-
-//   };
